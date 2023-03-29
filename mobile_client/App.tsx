@@ -1,3 +1,5 @@
+//dependencies
+
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
@@ -27,6 +29,7 @@ const App = () => {
   const [serverIp, setServerIp] = useState('');
   const [loading, setLoading] = useState(false);
 
+  //persisting the backend's IP address between sessions
   useEffect(() => {
     const getServerIp = async () => {
       try {
@@ -42,6 +45,7 @@ const App = () => {
     getServerIp();
   }, []);
 
+  //sending the prompt to the backend and requesting the generated image async
   const generateImage = async () => {
     Keyboard.dismiss(); 
     try {
@@ -70,6 +74,7 @@ const App = () => {
     }
   };
 
+  //persisting the backend's IP address between sessions
   const saveServerIp = async () => {
     try {
       await AsyncStorage.setItem('serverIp', serverIp);
@@ -80,11 +85,12 @@ const App = () => {
   };
 
   const saveImageToGallery = async () => {
-    // Save the image to the photo gallery
+    // TODO: Save the image to the photo gallery
   };
 
   const onImageLongPress = (e) => {
     showMenu({
+      // TODO: Save the image to the photo gallery
       rect: {x: e.nativeEvent.pageX, y: e.nativeEvent.pageY, width: 0, height: 0},
       onSelectMenuItem: (menuItem) => {
         if (menuItem === 'save') {
@@ -95,6 +101,7 @@ const App = () => {
     });
   };
 
+  // UI below
   return (
     <MenuProvider>
       <View style={styles.contentContainer}>
