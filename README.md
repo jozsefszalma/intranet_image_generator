@@ -11,9 +11,7 @@ So I built:
 
 ### How it works:
 
-<img src="https://user-images.githubusercontent.com/96535232/228761106-7db94e6d-4402-4eaa-ac37-20e30a1c1106.jpg" width=300>
-<img src="https://user-images.githubusercontent.com/96535232/228761183-760e9b1f-1c3d-47ee-89d5-3b7cfc00ead0.jpg" width=300>
-<img src="https://user-images.githubusercontent.com/96535232/228761221-7d97d4fc-5a00-4567-b6bb-d7e00184941f.jpg" width=300>
+<img src="https://user-images.githubusercontent.com/96535232/228761106-7db94e6d-4402-4eaa-ac37-20e30a1c1106.jpg" alt="screenshot of the mobile client, scary dragon breathing fire" width=300> <img src="https://user-images.githubusercontent.com/96535232/228761183-760e9b1f-1c3d-47ee-89d5-3b7cfc00ead0.jpg" alt="screenshot of the mobile client, magical unicorn with wings" width=300> <img src="https://user-images.githubusercontent.com/96535232/228761221-7d97d4fc-5a00-4567-b6bb-d7e00184941f.jpg" alt="screenshot of the mobile client, pirateship at sea, black sails, stormy weather" width=300>
 
 
 ### Set up: 
@@ -24,9 +22,11 @@ So I built:
 - NEGATIVE_PROMPT: Optional, but should be used for parental controls (e.g. add "scary" to prevent convergence on scary images, the same with NSFW concepts, etc.)
 - MODEL_ID: Optional, Hugging Face model ID, using SD 2.1 if not defined
 
-2. expose port 5000 on the machine running the backend to your **intra**net 
+2. set a fixed LAN IP address on the machine running the backend and expose port 5000 to your **intra**net
 
-3. As of now, to get the mobile app running, you need to set up a React Native development environment, compile the app from source and load the .apk onto an Android device using developer mode.
+3. set up the IP address of the backend on the mobile app under the kebab menu (look for \u22EE in the upper right corner)
+
+4. As of now, to get the mobile app running, you need to set up a React Native development environment, compile the app from source and load the .apk onto an Android device using developer mode.
 Here is a handy guide: https://reactnative.dev/docs/environment-setup?guide=native
 
 
