@@ -10,7 +10,12 @@ So I built:
 
 
 ### How it works:
-images to be added
+
+![Screenshot_20230330-091750_mobile_client](https://user-images.githubusercontent.com/96535232/228761106-7db94e6d-4402-4eaa-ac37-20e30a1c1106.jpg)
+
+![Screenshot_20230330-091706_mobile_client](https://user-images.githubusercontent.com/96535232/228761183-760e9b1f-1c3d-47ee-89d5-3b7cfc00ead0.jpg)
+
+![Screenshot_20230330-092045_mobile_client](https://user-images.githubusercontent.com/96535232/228761221-7d97d4fc-5a00-4567-b6bb-d7e00184941f.jpg)
 
 
 ### Set up: 
