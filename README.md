@@ -1,11 +1,11 @@
 # Intranet Image Generator
 I wanted to show my family what I do for a living and what better way to make Computer Vision interesting than diffusion models?
 <br><br>
-I could have just shown them DALL-E 2, Midjourney, or the million mobile apps built on Stable Diffusion already out there, however if I built it myself then I can run it for free and retain end-to-end control over all aspects, e.g. which model I use, possibility to add parental controls to the prompts etc. <br>
+I could have just shown them DALL-E 2, Midjourney, or the million mobile apps built on SD already out there, however if I built it myself then I can run it for free and retain end-to-end control over all aspects, e.g. which model I use, possibility to add parental controls to the prompts etc. <br>
 
 So, I built: 
 - a simple React Native mobile app that takes a prompt as input and displays the generated images
-- a Python backend with a Flask-based API and Stable Diffusion running inference on an RTX 3090 GPU, with plans to containerize using Docker
+- a Python backend with a Flask-based API and diffusion model running inference on an RTX 3090 GPU, with plans to containerize using Docker
 
 <b>Work in progress!</b><br>
 
