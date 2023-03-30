@@ -1,5 +1,5 @@
 # Intranet Image Generator
-I wanted to show my family what I do for a living and what better way to make Computer Vision interesting than diffusion models?
+I wanted to show my family what I do for a living and what better way to make Computer Vision interesting than diffusion models?<br>
 I could have just shown them DALL-E 2, but what would be the fun in that?
 
 So I built: 
@@ -26,7 +26,7 @@ So I built:
 
 3. set up the IP address of the backend on the mobile app under the kebab menu (look for ⋮ in the upper right corner)
 
-4. As of now, to get the mobile app running, you need to set up a React Native development environment, compile the app from source and load the .apk onto an Android device using developer mode.
+4. As of now, to get the mobile app running, you need to set up a React Native development environment, compile the app from source and load the .apk onto an Android device using developer mode.<br>
 Here is a handy guide: https://reactnative.dev/docs/environment-setup?guide=native
 
 
@@ -39,7 +39,7 @@ Here is a handy guide: https://reactnative.dev/docs/environment-setup?guide=nati
 
 
 ### License:
-Copyright 2023, Jozsef Szalma
-Creative Commons Attribution-NonCommercial 4.0 International Public License
+Copyright 2023, Jozsef Szalma <br>
+Creative Commons Attribution-NonCommercial 4.0 International Public License<br>
 https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
