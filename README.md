@@ -1,6 +1,7 @@
 # Intranet Image Generator
-I wanted to show my family what I do for a living and what better way to make Computer Vision interesting than diffusion models?<br>
-I could have just shown them DALL-E 2, Midjourney, or the million mobile apps built on Stable Diffusion already out there, however if I built it myself then I can run it for free and retain end-to-end control over all aspects, e.g. which model I use, possibility to add parental controls to the prompts etc.
+I wanted to show my family what I do for a living and what better way to make Computer Vision interesting than diffusion models?
+<br>
+I could have just shown them DALL-E 2, Midjourney, or the million mobile apps built on Stable Diffusion already out there, however if I built it myself then I can run it for free and retain end-to-end control over all aspects, e.g. which model I use, possibility to add parental controls to the prompts etc. <br>
 
 So I built: 
 - a simple React Native mobile app that takes a prompt as input and displays the generated images
