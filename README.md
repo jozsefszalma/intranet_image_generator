@@ -5,7 +5,7 @@ I could have just shown them DALL-E 2, Midjourney, or the million mobile apps bu
 
 So, I built: 
 - a simple React Native mobile app as frontend, that takes a prompt as input and displays the generated images
-- a Python backend with a Flask-based API and a diffusion model running inference on an RTX 3090 GPU, with plans to containerize using Docker
+- a Python backend, with a Flask-based API and a diffusion model running inference on an RTX 3090 GPU, with plans to containerize using Docker
 
 <b>Work in progress!</b><br>
 
