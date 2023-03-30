@@ -11,7 +11,7 @@ So I built:
 
 ### How it works:
 
-![Screenshot_20230330-091750_mobile_client](https://user-images.githubusercontent.com/96535232/228761106-7db94e6d-4402-4eaa-ac37-20e30a1c1106.jpg)
+<img src="https://user-images.githubusercontent.com/96535232/228761106-7db94e6d-4402-4eaa-ac37-20e30a1c1106.jpg" width=300>
 
 ![Screenshot_20230330-091706_mobile_client](https://user-images.githubusercontent.com/96535232/228761183-760e9b1f-1c3d-47ee-89d5-3b7cfc00ead0.jpg)
 
