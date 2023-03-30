@@ -1,3 +1,8 @@
+// License:
+// Copyright 2023, Jozsef Szalma
+// Creative Commons Attribution-NonCommercial 4.0 International Public License
+// https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
 //dependencies
 
 import React, {useState, useEffect} from 'react';
