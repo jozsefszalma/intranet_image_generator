@@ -5,7 +5,7 @@ I could have just shown them DALL-E 2, Midjourney, or the million mobile apps bu
 
 So, I built: 
 - a simple React Native mobile app that takes a prompt as input and displays the generated images
-- a Python backend with a Flask-based API and diffusion model running inference on an RTX 3090 GPU, with plans to containerize using Docker
+- a Python backend with a Flask-based API and a diffusion model running inference on an RTX 3090 GPU, with plans to containerize using Docker
 
 <b>Work in progress!</b><br>
 
@@ -32,7 +32,7 @@ Here is a handy guide: https://reactnative.dev/docs/environment-setup?guide=nati
 
 
 ### Known issues and Disclaimers:
-- This is a hobby prototype that takes quite a bit of tech skills to get to work and is not production ready. You shouldn't use it if you don't understand the technology involved. Read the license terms, especially Section 5 – Disclaimer of Warranties and Limitation of Liability.
+- This is a hobby prototype that takes quite a bit of tech skills to get to work and is not production ready. You shouldn't use it if you don't understand the technology involved. <br>Read the license terms, especially Section 5 – Disclaimer of Warranties and Limitation of Liability.
 - I couldn't test if Docker works at all, as my NVIDIA drivers do not want to play with Docker in my Windows Linux Subsystem
 - The mobile app still has the default Android icon and is named "mobile_client"
 - Minimal security (not making any attempts to sanitize inputs or authenticate clients), the backend is only intended to be used behind a NAT router for demo purposes, not ready to be exposed to the Internet. 
