@@ -1,3 +1,8 @@
+# License:
+# Copyright 2023, Jozsef Szalma <br>
+# Creative Commons Attribution-NonCommercial 4.0 International Public License<br>
+# https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
 import os
 import uuid
 from flask import Flask, request, send_from_directory
